@@ -8,6 +8,7 @@ public class App {
         long endTime;
         ArrayList<ClimateRecord> records = new ArrayList<>();
         Scanner sc = new Scanner(new File("climate-daily.csv"));
+        int x = 5;
         sc.useDelimiter(",");
         sc.nextLine();
         while (sc.hasNextLine()) {
